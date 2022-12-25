@@ -1,0 +1,10 @@
+Shell es el intérprete de comandos, es decir, como los ordenadores no entienden nuestro lenguaje
+(sólo saben de ceros y unos), necesitaremos un programa intermedio, capaz de hacer que cuando
+nosotros tecleamos alguna orden, nuestro ordenador sea capaz de entenderlo. Es decir, proporciona
+comunicación directa entre el usuario y el sistema operativo.
+Shell: function() {
+        this.echo("Shell es el intérprete de comandos, es decir, como los ordenadores no entienden nuestro lenguaje (sólo saben de ceros y unos), necesitaremos un programa intermedio, capaz de hacer que cuando nosotros tecleamos alguna orden, nuestro ordenador sea capaz de entenderlo. Es decir, proporciona comunicación directa entre el usuario y el sistema operativo.");
+    },
+    Echo: function(){
+        this.echo("Echo es el comando que se encarga de escribir cada STRING dado en la salida estándar: echo Hola mundo. También nos sirve para realizar otro tipo de operaciones, como mostrar los ficheros de un tipo: echo *.txt Si nuestro texto contiene alguna comilla simple, hacer el echo como antes nos puede dar un fallo: echo I’m David Para solucionar esto, y como buena práctica, es aconsejable siempre poner las dobles comillas: echo “I’m David”");
+    }
